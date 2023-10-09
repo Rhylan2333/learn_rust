@@ -12,5 +12,6 @@ for subdir in $subdirs; do
         cd "$current_dir/$subdir"
         echo "Cleaning $subdir..."
         cargo clean
+        echo "Done~"
     fi
 done
